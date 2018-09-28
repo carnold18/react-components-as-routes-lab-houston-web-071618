@@ -9,7 +9,7 @@ import Actors from '../components/Actors';
 import Directors from '../components/Directors';
 import Movies from '../components/Movies';
 
-
+// where did these props come from?
 const App = (props) => {
   return (
     <Router>
@@ -18,7 +18,7 @@ const App = (props) => {
         <Route exact path = "/" component={Home}/>
         <Route exact path = "/actors" component={Actors}/>
         <Route exact path = "/directors" component={Directors}/>
-        <Route exact path = "movies/" component={Movies}/>
+        <Route exact path = "/movies" component={Movies}/>
       </div>
     </Router>
   );
